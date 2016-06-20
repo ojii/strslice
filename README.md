@@ -13,3 +13,10 @@ Python 3 style emoji-safe string slicing for Python 2. Based on
 >>> print(strslice(u'🏩')[0])
 🏩
 ```
+
+# Release Notes
+
+## 1.0
+
+* Initial release
+* Unicode 8.0.0 data
