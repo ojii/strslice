@@ -1,6 +1,6 @@
 # Auto-generated file, do not edit manually
 # Re-generate using the `strslice-generate` command
-# Unicode Version 6.2.0
+# Unicode Version 8.0.0
 
 
 def get(num):
@@ -18,11 +18,15 @@ def get(num):
         return "Control"
     if 0x00AD == num:
         return "Control"
-    if 0x0600 <= num <= 0x0604:
+    if 0x0600 <= num <= 0x0605:
+        return "Control"
+    if 0x061C == num:
         return "Control"
     if 0x06DD == num:
         return "Control"
     if 0x070F == num:
+        return "Control"
+    if 0x180E == num:
         return "Control"
     if 0x200B == num:
         return "Control"
@@ -36,9 +40,9 @@ def get(num):
         return "Control"
     if 0x2060 <= num <= 0x2064:
         return "Control"
-    if 0x2065 <= num <= 0x2069:
+    if 0x2065 == num:
         return "Control"
-    if 0x206A <= num <= 0x206F:
+    if 0x2066 <= num <= 0x206F:
         return "Control"
     if 0xD800 <= num <= 0xDFFF:
         return "Control"
@@ -49,6 +53,8 @@ def get(num):
     if 0xFFF9 <= num <= 0xFFFB:
         return "Control"
     if 0x110BD == num:
+        return "Control"
+    if 0x1BCA0 <= num <= 0x1BCA3:
         return "Control"
     if 0x1D173 <= num <= 0x1D17A:
         return "Control"
@@ -112,9 +118,7 @@ def get(num):
         return "Extend"
     if 0x0859 <= num <= 0x085B:
         return "Extend"
-    if 0x08E4 <= num <= 0x08FE:
-        return "Extend"
-    if 0x0900 <= num <= 0x0902:
+    if 0x08E3 <= num <= 0x0902:
         return "Extend"
     if 0x093A == num:
         return "Extend"
@@ -198,6 +202,8 @@ def get(num):
         return "Extend"
     if 0x0BD7 == num:
         return "Extend"
+    if 0x0C00 == num:
+        return "Extend"
     if 0x0C3E <= num <= 0x0C40:
         return "Extend"
     if 0x0C46 <= num <= 0x0C48:
@@ -207,6 +213,8 @@ def get(num):
     if 0x0C55 <= num <= 0x0C56:
         return "Extend"
     if 0x0C62 <= num <= 0x0C63:
+        return "Extend"
+    if 0x0C81 == num:
         return "Extend"
     if 0x0CBC == num:
         return "Extend"
@@ -221,6 +229,8 @@ def get(num):
     if 0x0CD5 <= num <= 0x0CD6:
         return "Extend"
     if 0x0CE2 <= num <= 0x0CE3:
+        return "Extend"
+    if 0x0D01 == num:
         return "Extend"
     if 0x0D3E == num:
         return "Extend"
@@ -332,6 +342,8 @@ def get(num):
         return "Extend"
     if 0x1A17 <= num <= 0x1A18:
         return "Extend"
+    if 0x1A1B == num:
+        return "Extend"
     if 0x1A56 == num:
         return "Extend"
     if 0x1A58 <= num <= 0x1A5E:
@@ -345,6 +357,10 @@ def get(num):
     if 0x1A73 <= num <= 0x1A7C:
         return "Extend"
     if 0x1A7F == num:
+        return "Extend"
+    if 0x1AB0 <= num <= 0x1ABD:
+        return "Extend"
+    if 0x1ABE == num:
         return "Extend"
     if 0x1B00 <= num <= 0x1B03:
         return "Extend"
@@ -364,7 +380,7 @@ def get(num):
         return "Extend"
     if 0x1BA8 <= num <= 0x1BA9:
         return "Extend"
-    if 0x1BAB == num:
+    if 0x1BAB <= num <= 0x1BAD:
         return "Extend"
     if 0x1BE6 == num:
         return "Extend"
@@ -388,7 +404,9 @@ def get(num):
         return "Extend"
     if 0x1CF4 == num:
         return "Extend"
-    if 0x1DC0 <= num <= 0x1DE6:
+    if 0x1CF8 <= num <= 0x1CF9:
+        return "Extend"
+    if 0x1DC0 <= num <= 0x1DF5:
         return "Extend"
     if 0x1DFC <= num <= 0x1DFF:
         return "Extend"
@@ -422,7 +440,7 @@ def get(num):
         return "Extend"
     if 0xA674 <= num <= 0xA67D:
         return "Extend"
-    if 0xA69F == num:
+    if 0xA69E <= num <= 0xA69F:
         return "Extend"
     if 0xA6F0 <= num <= 0xA6F1:
         return "Extend"
@@ -450,6 +468,8 @@ def get(num):
         return "Extend"
     if 0xA9BC == num:
         return "Extend"
+    if 0xA9E5 == num:
+        return "Extend"
     if 0xAA29 <= num <= 0xAA2E:
         return "Extend"
     if 0xAA31 <= num <= 0xAA32:
@@ -459,6 +479,8 @@ def get(num):
     if 0xAA43 == num:
         return "Extend"
     if 0xAA4C == num:
+        return "Extend"
+    if 0xAA7C == num:
         return "Extend"
     if 0xAAB0 == num:
         return "Extend"
@@ -484,11 +506,15 @@ def get(num):
         return "Extend"
     if 0xFE00 <= num <= 0xFE0F:
         return "Extend"
-    if 0xFE20 <= num <= 0xFE26:
+    if 0xFE20 <= num <= 0xFE2F:
         return "Extend"
     if 0xFF9E <= num <= 0xFF9F:
         return "Extend"
     if 0x101FD == num:
+        return "Extend"
+    if 0x102E0 == num:
+        return "Extend"
+    if 0x10376 <= num <= 0x1037A:
         return "Extend"
     if 0x10A01 <= num <= 0x10A03:
         return "Extend"
@@ -500,11 +526,13 @@ def get(num):
         return "Extend"
     if 0x10A3F == num:
         return "Extend"
+    if 0x10AE5 <= num <= 0x10AE6:
+        return "Extend"
     if 0x11001 == num:
         return "Extend"
     if 0x11038 <= num <= 0x11046:
         return "Extend"
-    if 0x11080 <= num <= 0x11081:
+    if 0x1107F <= num <= 0x11081:
         return "Extend"
     if 0x110B3 <= num <= 0x110B6:
         return "Extend"
@@ -516,9 +544,65 @@ def get(num):
         return "Extend"
     if 0x1112D <= num <= 0x11134:
         return "Extend"
+    if 0x11173 == num:
+        return "Extend"
     if 0x11180 <= num <= 0x11181:
         return "Extend"
     if 0x111B6 <= num <= 0x111BE:
+        return "Extend"
+    if 0x111CA <= num <= 0x111CC:
+        return "Extend"
+    if 0x1122F <= num <= 0x11231:
+        return "Extend"
+    if 0x11234 == num:
+        return "Extend"
+    if 0x11236 <= num <= 0x11237:
+        return "Extend"
+    if 0x112DF == num:
+        return "Extend"
+    if 0x112E3 <= num <= 0x112EA:
+        return "Extend"
+    if 0x11300 <= num <= 0x11301:
+        return "Extend"
+    if 0x1133C == num:
+        return "Extend"
+    if 0x1133E == num:
+        return "Extend"
+    if 0x11340 == num:
+        return "Extend"
+    if 0x11357 == num:
+        return "Extend"
+    if 0x11366 <= num <= 0x1136C:
+        return "Extend"
+    if 0x11370 <= num <= 0x11374:
+        return "Extend"
+    if 0x114B0 == num:
+        return "Extend"
+    if 0x114B3 <= num <= 0x114B8:
+        return "Extend"
+    if 0x114BA == num:
+        return "Extend"
+    if 0x114BD == num:
+        return "Extend"
+    if 0x114BF <= num <= 0x114C0:
+        return "Extend"
+    if 0x114C2 <= num <= 0x114C3:
+        return "Extend"
+    if 0x115AF == num:
+        return "Extend"
+    if 0x115B2 <= num <= 0x115B5:
+        return "Extend"
+    if 0x115BC <= num <= 0x115BD:
+        return "Extend"
+    if 0x115BF <= num <= 0x115C0:
+        return "Extend"
+    if 0x115DC <= num <= 0x115DD:
+        return "Extend"
+    if 0x11633 <= num <= 0x1163A:
+        return "Extend"
+    if 0x1163D == num:
+        return "Extend"
+    if 0x1163F <= num <= 0x11640:
         return "Extend"
     if 0x116AB == num:
         return "Extend"
@@ -528,7 +612,19 @@ def get(num):
         return "Extend"
     if 0x116B7 == num:
         return "Extend"
+    if 0x1171D <= num <= 0x1171F:
+        return "Extend"
+    if 0x11722 <= num <= 0x11725:
+        return "Extend"
+    if 0x11727 <= num <= 0x1172B:
+        return "Extend"
+    if 0x16AF0 <= num <= 0x16AF4:
+        return "Extend"
+    if 0x16B30 <= num <= 0x16B36:
+        return "Extend"
     if 0x16F8F <= num <= 0x16F92:
+        return "Extend"
+    if 0x1BC9D <= num <= 0x1BC9E:
         return "Extend"
     if 0x1D165 == num:
         return "Extend"
@@ -543,6 +639,20 @@ def get(num):
     if 0x1D1AA <= num <= 0x1D1AD:
         return "Extend"
     if 0x1D242 <= num <= 0x1D244:
+        return "Extend"
+    if 0x1DA00 <= num <= 0x1DA36:
+        return "Extend"
+    if 0x1DA3B <= num <= 0x1DA6C:
+        return "Extend"
+    if 0x1DA75 == num:
+        return "Extend"
+    if 0x1DA84 == num:
+        return "Extend"
+    if 0x1DA9B <= num <= 0x1DA9F:
+        return "Extend"
+    if 0x1DAA1 <= num <= 0x1DAAF:
+        return "Extend"
+    if 0x1E8D0 <= num <= 0x1E8D6:
         return "Extend"
     if 0xE0100 <= num <= 0xE01EF:
         return "Extend"
@@ -656,11 +766,7 @@ def get(num):
         return "SpacingMark"
     if 0x1933 <= num <= 0x1938:
         return "SpacingMark"
-    if 0x19B5 <= num <= 0x19B7:
-        return "SpacingMark"
-    if 0x19BA == num:
-        return "SpacingMark"
-    if 0x1A19 <= num <= 0x1A1B:
+    if 0x1A19 <= num <= 0x1A1A:
         return "SpacingMark"
     if 0x1A55 == num:
         return "SpacingMark"
@@ -685,8 +791,6 @@ def get(num):
     if 0x1BA6 <= num <= 0x1BA7:
         return "SpacingMark"
     if 0x1BAA == num:
-        return "SpacingMark"
-    if 0x1BAC <= num <= 0x1BAD:
         return "SpacingMark"
     if 0x1BE7 == num:
         return "SpacingMark"
@@ -760,11 +864,57 @@ def get(num):
         return "SpacingMark"
     if 0x111BF <= num <= 0x111C0:
         return "SpacingMark"
+    if 0x1122C <= num <= 0x1122E:
+        return "SpacingMark"
+    if 0x11232 <= num <= 0x11233:
+        return "SpacingMark"
+    if 0x11235 == num:
+        return "SpacingMark"
+    if 0x112E0 <= num <= 0x112E2:
+        return "SpacingMark"
+    if 0x11302 <= num <= 0x11303:
+        return "SpacingMark"
+    if 0x1133F == num:
+        return "SpacingMark"
+    if 0x11341 <= num <= 0x11344:
+        return "SpacingMark"
+    if 0x11347 <= num <= 0x11348:
+        return "SpacingMark"
+    if 0x1134B <= num <= 0x1134D:
+        return "SpacingMark"
+    if 0x11362 <= num <= 0x11363:
+        return "SpacingMark"
+    if 0x114B1 <= num <= 0x114B2:
+        return "SpacingMark"
+    if 0x114B9 == num:
+        return "SpacingMark"
+    if 0x114BB <= num <= 0x114BC:
+        return "SpacingMark"
+    if 0x114BE == num:
+        return "SpacingMark"
+    if 0x114C1 == num:
+        return "SpacingMark"
+    if 0x115B0 <= num <= 0x115B1:
+        return "SpacingMark"
+    if 0x115B8 <= num <= 0x115BB:
+        return "SpacingMark"
+    if 0x115BE == num:
+        return "SpacingMark"
+    if 0x11630 <= num <= 0x11632:
+        return "SpacingMark"
+    if 0x1163B <= num <= 0x1163C:
+        return "SpacingMark"
+    if 0x1163E == num:
+        return "SpacingMark"
     if 0x116AC == num:
         return "SpacingMark"
     if 0x116AE <= num <= 0x116AF:
         return "SpacingMark"
     if 0x116B6 == num:
+        return "SpacingMark"
+    if 0x11720 <= num <= 0x11721:
+        return "SpacingMark"
+    if 0x11726 == num:
         return "SpacingMark"
     if 0x16F51 <= num <= 0x16F7E:
         return "SpacingMark"

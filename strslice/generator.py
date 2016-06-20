@@ -68,7 +68,7 @@ def cli():
     parser.add_argument(
         '-v',
         '--unicode-version',
-        default='6.2.0'
+        default='8.0.0'
     )
     parser.add_argument(
         '-u',
