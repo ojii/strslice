@@ -8,7 +8,7 @@ Python 3 style emoji-safe string slicing for Python 2. Based on
 
 ```
 >>> from strslice import strslice
->>> print(u'🏩')[0]
+>>> print(u'🏩'[0])
 ???
 >>> print(strslice(u'🏩')[0])
 🏩
